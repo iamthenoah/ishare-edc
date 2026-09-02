@@ -1,0 +1,85 @@
+{
+  "url": "http://localhost:7002/run",
+  "label": "AOP (Akka everywhere)",
+  "generatedAt": "2026-07-01T15:25:52.900Z",
+  "levels": [
+    {
+      "concurrency": 5,
+      "durationSec": 36.869,
+      "totalRequests": 11,
+      "successCount": 11,
+      "failureCount": 0,
+      "throughputPerSec": 0.2983536304212211,
+      "minMs": 8023.8399,
+      "p50Ms": 16401.2758,
+      "p95Ms": 18418.6627,
+      "p99Ms": 18418.6627,
+      "maxMs": 18418.6627,
+      "uniqueErrors": []
+    },
+    {
+      "concurrency": 10,
+      "durationSec": 50.83,
+      "totalRequests": 19,
+      "successCount": 19,
+      "failureCount": 0,
+      "throughputPerSec": 0.3737950029510132,
+      "minMs": 19968.1858,
+      "p50Ms": 24573.3851,
+      "p95Ms": 31592.6594,
+      "p99Ms": 31592.6594,
+      "maxMs": 31592.6594,
+      "uniqueErrors": []
+    },
+    {
+      "concurrency": 20,
+      "durationSec": 45.723,
+      "totalRequests": 36,
+      "successCount": 4,
+      "failureCount": 32,
+      "throughputPerSec": 0.08748332349145944,
+      "minMs": 45606.5128,
+      "p50Ms": 45626.7576,
+      "p95Ms": 45721.6522,
+      "p99Ms": 45721.6522,
+      "maxMs": 45721.6522,
+      "uniqueErrors": [
+        [
+          "TimeoutException: null",
+          29
+        ],
+        [
+          "ExecutionException: java.util.concurrent.TimeoutException: Ask timed out on [Actor[akka://ishare-cluster@127.0.0.1:25252/system/consumer-management-actor#1477894982]] after [10000 ms]. Message of type [eu.example.ishare.common.protocol.ManagementProtocol$RequestCatalog]. A typical reason for `AskTim",
+          2
+        ],
+        [
+          "ExecutionException: java.util.concurrent.TimeoutException: Ask timed out on [Actor[akka://ishare-cluster@127.0.0.1:25252/system/consumer-management-actor#1477894982]] after [10000 ms]. Message of type [eu.example.ishare.common.protocol.ManagementProtocol$PollNegotiation]. A typical reason for `AskTi",
+          1
+        ]
+      ]
+    },
+    {
+      "concurrency": 40,
+      "durationSec": 30.111,
+      "totalRequests": 101,
+      "successCount": 0,
+      "failureCount": 101,
+      "throughputPerSec": 0,
+      "minMs": null,
+      "p50Ms": null,
+      "p95Ms": null,
+      "p99Ms": null,
+      "maxMs": null,
+      "uniqueErrors": [
+        [
+          "TimeoutException: null",
+          89
+        ],
+        [
+          "ExecutionException: java.util.concurrent.TimeoutException: Ask timed out on [Actor[akka://ishare-cluster@127.0.0.1:25252/system/consumer-management-actor#1477894982]] after [10000 ms]. Message of type [eu.example.ishare.common.protocol.ManagementProtocol$RequestCatalog]. A typical reason for `AskTim",
+          12
+        ]
+      ]
+    }
+  ]
+}

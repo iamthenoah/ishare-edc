@@ -1,0 +1,83 @@
+{
+  "url": "http://localhost:7002/run",
+  "label": "SOP (HTTP everywhere)",
+  "generatedAt": "2026-07-01T13:37:16.197Z",
+  "levels": [
+    {
+      "concurrency": 5,
+      "durationSec": 37.168,
+      "totalRequests": 15,
+      "successCount": 0,
+      "failureCount": 15,
+      "throughputPerSec": 0,
+      "minMs": null,
+      "p50Ms": null,
+      "p95Ms": null,
+      "p99Ms": null,
+      "maxMs": null,
+      "uniqueErrors": [
+        [
+          "transfer ended in state TERMINATED",
+          15
+        ]
+      ]
+    },
+    {
+      "concurrency": 10,
+      "durationSec": 45.673,
+      "totalRequests": 20,
+      "successCount": 0,
+      "failureCount": 20,
+      "throughputPerSec": 0,
+      "minMs": null,
+      "p50Ms": null,
+      "p95Ms": null,
+      "p99Ms": null,
+      "maxMs": null,
+      "uniqueErrors": [
+        [
+          "transfer ended in state TERMINATED",
+          20
+        ]
+      ]
+    },
+    {
+      "concurrency": 20,
+      "durationSec": 45.891,
+      "totalRequests": 20,
+      "successCount": 0,
+      "failureCount": 20,
+      "throughputPerSec": 0,
+      "minMs": null,
+      "p50Ms": null,
+      "p95Ms": null,
+      "p99Ms": null,
+      "maxMs": null,
+      "uniqueErrors": [
+        [
+          "transfer ended in state TERMINATED",
+          20
+        ]
+      ]
+    },
+    {
+      "concurrency": 40,
+      "durationSec": 47.307,
+      "totalRequests": 40,
+      "successCount": 0,
+      "failureCount": 40,
+      "throughputPerSec": 0,
+      "minMs": null,
+      "p50Ms": null,
+      "p95Ms": null,
+      "p99Ms": null,
+      "maxMs": null,
+      "uniqueErrors": [
+        [
+          "contract negotiation did not finalize within the polling window",
+          40
+        ]
+      ]
+    }
+  ]
+}

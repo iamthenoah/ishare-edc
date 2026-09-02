@@ -1,0 +1,68 @@
+{
+  "url": "http://localhost:7002/run",
+  "label": "SOP (HTTP everywhere)",
+  "generatedAt": "2026-07-01T15:33:55.601Z",
+  "levels": [
+    {
+      "concurrency": 5,
+      "durationSec": 39.827,
+      "totalRequests": 15,
+      "successCount": 15,
+      "failureCount": 0,
+      "throughputPerSec": 0.3766289200793432,
+      "minMs": 11136.9521,
+      "p50Ms": 12195.0594,
+      "p95Ms": 16035.9571,
+      "p99Ms": 16035.9571,
+      "maxMs": 16035.9571,
+      "uniqueErrors": []
+    },
+    {
+      "concurrency": 10,
+      "durationSec": 49.035,
+      "totalRequests": 20,
+      "successCount": 20,
+      "failureCount": 0,
+      "throughputPerSec": 0.40787192821454066,
+      "minMs": 19611.4766,
+      "p50Ms": 24494.9111,
+      "p95Ms": 27229.2145,
+      "p99Ms": 27229.2145,
+      "maxMs": 27229.2145,
+      "uniqueErrors": []
+    },
+    {
+      "concurrency": 20,
+      "durationSec": 52.041,
+      "totalRequests": 20,
+      "successCount": 20,
+      "failureCount": 0,
+      "throughputPerSec": 0.3843123690935993,
+      "minMs": 38589.4841,
+      "p50Ms": 47472.8435,
+      "p95Ms": 52039.4899,
+      "p99Ms": 52039.4899,
+      "maxMs": 52039.4899,
+      "uniqueErrors": []
+    },
+    {
+      "concurrency": 40,
+      "durationSec": 48.849,
+      "totalRequests": 40,
+      "successCount": 0,
+      "failureCount": 40,
+      "throughputPerSec": 0,
+      "minMs": null,
+      "p50Ms": null,
+      "p95Ms": null,
+      "p99Ms": null,
+      "maxMs": null,
+      "uniqueErrors": [
+        [
+          "contract negotiation did not finalize within the polling window",
+          40
+        ]
+      ]
+    }
+  ]
+}

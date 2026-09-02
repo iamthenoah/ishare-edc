@@ -1,0 +1,87 @@
+{
+  "url": "http://localhost:7002/run",
+  "label": "SOP (HTTP everywhere)",
+  "generatedAt": "2026-06-30T12:55:20.914Z",
+  "levels": [
+    {
+      "concurrency": 5,
+      "durationSec": 40.835,
+      "totalRequests": 15,
+      "successCount": 0,
+      "failureCount": 15,
+      "throughputPerSec": 0,
+      "minMs": null,
+      "p50Ms": null,
+      "p95Ms": null,
+      "p99Ms": null,
+      "maxMs": null,
+      "failureSample": [
+        500,
+        500,
+        500,
+        500,
+        500
+      ]
+    },
+    {
+      "concurrency": 10,
+      "durationSec": 44.221,
+      "totalRequests": 20,
+      "successCount": 0,
+      "failureCount": 20,
+      "throughputPerSec": 0,
+      "minMs": null,
+      "p50Ms": null,
+      "p95Ms": null,
+      "p99Ms": null,
+      "maxMs": null,
+      "failureSample": [
+        500,
+        500,
+        500,
+        500,
+        500
+      ]
+    },
+    {
+      "concurrency": 20,
+      "durationSec": 43.826,
+      "totalRequests": 20,
+      "successCount": 0,
+      "failureCount": 20,
+      "throughputPerSec": 0,
+      "minMs": null,
+      "p50Ms": null,
+      "p95Ms": null,
+      "p99Ms": null,
+      "maxMs": null,
+      "failureSample": [
+        500,
+        500,
+        500,
+        500,
+        500
+      ]
+    },
+    {
+      "concurrency": 40,
+      "durationSec": 83.781,
+      "totalRequests": 40,
+      "successCount": 0,
+      "failureCount": 40,
+      "throughputPerSec": 0,
+      "minMs": null,
+      "p50Ms": null,
+      "p95Ms": null,
+      "p99Ms": null,
+      "maxMs": null,
+      "failureSample": [
+        500,
+        500,
+        500,
+        500,
+        500
+      ]
+    }
+  ]
+}

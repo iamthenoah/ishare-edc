@@ -1,0 +1,77 @@
+{
+  "url": "http://localhost:7002/run",
+  "label": "AOP (Akka everywhere)",
+  "generatedAt": "2026-07-01T16:12:08.985Z",
+  "levels": [
+    {
+      "concurrency": 5,
+      "durationSec": 34.417,
+      "totalRequests": 10,
+      "successCount": 10,
+      "failureCount": 0,
+      "throughputPerSec": 0.2905540866432286,
+      "minMs": 14148.242,
+      "p50Ms": 16459.5343,
+      "p95Ms": 17819.6989,
+      "p99Ms": 17819.6989,
+      "maxMs": 17819.6989,
+      "uniqueErrors": []
+    },
+    {
+      "concurrency": 10,
+      "durationSec": 58.843,
+      "totalRequests": 20,
+      "successCount": 20,
+      "failureCount": 0,
+      "throughputPerSec": 0.33988749723841405,
+      "minMs": 24915.7162,
+      "p50Ms": 29103.3874,
+      "p95Ms": 29739.3917,
+      "p99Ms": 29739.3917,
+      "maxMs": 29739.3917,
+      "uniqueErrors": []
+    },
+    {
+      "concurrency": 20,
+      "durationSec": 52.011,
+      "totalRequests": 30,
+      "successCount": 15,
+      "failureCount": 15,
+      "throughputPerSec": 0.2884005306569764,
+      "minMs": 43157.9115,
+      "p50Ms": 47767.5341,
+      "p95Ms": 52009.1912,
+      "p99Ms": 52009.1912,
+      "maxMs": 52009.1912,
+      "uniqueErrors": [
+        [
+          "Exception: StartNegotiation failed: NullPointerException: Id must not be null",
+          15
+        ]
+      ]
+    },
+    {
+      "concurrency": 40,
+      "durationSec": 50.15,
+      "totalRequests": 72,
+      "successCount": 0,
+      "failureCount": 72,
+      "throughputPerSec": 0,
+      "minMs": null,
+      "p50Ms": null,
+      "p95Ms": null,
+      "p99Ms": null,
+      "maxMs": null,
+      "uniqueErrors": [
+        [
+          "Exception: StartNegotiation failed: NullPointerException: Id must not be null",
+          57
+        ],
+        [
+          "contract negotiation did not finalize within the polling window",
+          15
+        ]
+      ]
+    }
+  ]
+}

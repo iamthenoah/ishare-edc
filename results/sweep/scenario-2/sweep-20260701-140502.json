@@ -1,0 +1,87 @@
+{
+  "url": "http://localhost:7002/run",
+  "label": "AOP (Akka everywhere)",
+  "generatedAt": "2026-07-01T12:07:52.738Z",
+  "levels": [
+    {
+      "concurrency": 5,
+      "durationSec": 39.13,
+      "totalRequests": 13,
+      "successCount": 0,
+      "failureCount": 13,
+      "throughputPerSec": 0,
+      "minMs": null,
+      "p50Ms": null,
+      "p95Ms": null,
+      "p99Ms": null,
+      "maxMs": null,
+      "failureSample": [
+        500,
+        500,
+        500,
+        500,
+        500
+      ]
+    },
+    {
+      "concurrency": 10,
+      "durationSec": 43.467,
+      "totalRequests": 16,
+      "successCount": 0,
+      "failureCount": 16,
+      "throughputPerSec": 0,
+      "minMs": null,
+      "p50Ms": null,
+      "p95Ms": null,
+      "p99Ms": null,
+      "maxMs": null,
+      "failureSample": [
+        500,
+        500,
+        500,
+        500,
+        500
+      ]
+    },
+    {
+      "concurrency": 20,
+      "durationSec": 47.175,
+      "totalRequests": 32,
+      "successCount": 0,
+      "failureCount": 32,
+      "throughputPerSec": 0,
+      "minMs": null,
+      "p50Ms": null,
+      "p95Ms": null,
+      "p99Ms": null,
+      "maxMs": null,
+      "failureSample": [
+        500,
+        500,
+        500,
+        500,
+        500
+      ]
+    },
+    {
+      "concurrency": 40,
+      "durationSec": 40.088,
+      "totalRequests": 79,
+      "successCount": 0,
+      "failureCount": 79,
+      "throughputPerSec": 0,
+      "minMs": null,
+      "p50Ms": null,
+      "p95Ms": null,
+      "p99Ms": null,
+      "maxMs": null,
+      "failureSample": [
+        500,
+        500,
+        500,
+        500,
+        500
+      ]
+    }
+  ]
+}

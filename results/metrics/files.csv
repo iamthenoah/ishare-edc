@@ -1,0 +1,22 @@
+side,component,file,nloc,fn_count,wmc,avg_ccn,max_ccn,hotspots,tokens,avg_tokens_fn,avg_params,median_fn_nloc,max_fn_nloc,physical,code_lines,comment,blank,hal_vocab,hal_length,hal_volume,hal_difficulty,hal_effort,mi,nesting,imports,imports_project,imports_transport,imports_jdk,imports_other
+SOP,AR transport handler,HttpArTransportHandler.java,174,12,44,3.67,13,2,1406,117.17,1.17,11,56,232,196,7,29,192,1538,11665.67,79.80,930865.85,21.03,4,14,2,0,10,2
+SOP,Consumer EDC gateway,HttpConsumerEdcGateway.java,82,8,18,2.25,8,1,669,83.62,2.38,12,20,127,102,10,15,110,763,5174.18,65.76,340270.25,29.88,1,8,4,0,3,1
+SOP,Provider EDC gateway,HttpProviderEdcGateway.java,55,5,7,1.40,3,0,396,79.20,2.40,12,20,87,69,9,9,81,452,2865.61,53.01,151906.10,35.49,1,6,1,0,5,0
+SOP,Consumer transport handler,HttpConsumerTransportHandler.java,6,2,2,1.00,1,0,35,17.50,1.00,3,3,22,15,1,6,38,110,577.27,22.00,12699.98,54.88,0,4,3,0,1,0
+SOP,Provider transport handler,HttpProviderTransportHandler.java,6,2,2,1.00,1,0,30,15.00,0.50,3,3,22,15,1,6,37,105,546.99,21.64,11836.31,55.04,0,4,3,0,1,0
+SOP,Identity AR handler,HttpIShareIdentityServiceHandler.java,41,4,14,3.50,4,0,479,119.75,2.25,13,15,62,53,1,8,100,528,3507.96,52.88,185483.18,37.09,1,1,0,1,0,0
+SOP,Issuer transport handler,HttpIssuerTransportHandler.java,34,4,7,1.75,3,0,312,78.00,1.00,9,15,66,50,6,10,98,429,2837.71,27.23,77259.58,38.53,1,10,2,0,7,1
+SOP,Wallet transport handler,HttpWalletTransportHandler.java,36,4,7,1.75,3,0,303,75.75,1.00,10,14,68,52,6,10,98,421,2784.79,26.54,73911.45,38.21,1,10,2,0,7,1
+SOP,Issuer gateway (wallet-side),HttpIssuerGateway.java,14,2,3,1.50,2,0,100,50.00,2.00,10,10,35,24,5,6,59,167,982.40,21.08,20712.30,48.74,1,4,1,0,2,1
+SOP,Identity wallet handler,HttpWalletServiceHandler.java,30,3,10,3.33,4,0,285,95.00,1.67,9,15,50,42,1,7,86,345,2217.06,43.92,97376.81,40.71,2,5,0,5,0,0
+AOP,AR transport handler,ActorArTransportHandler.java,80,11,13,1.18,2,0,791,71.91,1.18,5,15,137,106,10,21,150,1039,7510.74,53.31,400380.36,28.52,3,15,3,11,1,0
+AOP,Shared ask/discovery plumbing,ManagementActorClient.java,37,5,8,1.60,4,0,354,70.80,1.00,5,15,83,58,13,12,131,550,3868.38,37.71,145858.39,36.20,2,13,2,6,5,0
+AOP,Consumer EDC gateway,ActorConsumerEdcGateway.java,52,12,17,1.42,4,0,456,38.00,1.92,4,7,105,80,9,16,117,683,4692.46,60.82,285410.24,32.59,0,11,6,2,3,0
+AOP,Provider EDC gateway,ActorProviderEdcGateway.java,38,9,12,1.33,2,0,286,31.78,1.67,5,6,82,60,9,13,92,463,3020.41,48.02,145053.91,36.66,0,8,3,2,3,0
+AOP,Consumer transport handler,ActorConsumerTransportHandler.java,6,2,2,1.00,1,0,49,24.50,2.50,3,3,22,15,1,6,46,118,651.78,21.00,13687.39,54.51,0,4,2,0,2,0
+AOP,Provider transport handler,ActorProviderTransportHandler.java,7,2,2,1.00,1,0,49,24.50,2.50,4,4,23,16,1,6,46,118,651.78,21.00,13687.39,53.89,0,4,2,0,2,0
+AOP,Identity AR handler,ActorIShareIdentityServiceHandler.java,55,6,10,1.67,3,0,603,100.50,1.50,10,12,106,85,10,11,154,865,6285.77,47.79,300422.85,31.09,2,19,2,10,6,1
+AOP,Issuer transport handler,ActorIssuerTransportHandler.java,38,6,7,1.17,2,0,320,53.33,1.33,7,9,83,60,9,14,112,513,3492.17,39.68,138581.80,36.25,2,11,3,7,1,0
+AOP,Wallet transport handler,ActorWalletTransportHandler.java,38,6,7,1.17,2,0,316,52.67,1.67,7,8,84,62,8,14,111,528,3587.45,42.10,151017.91,35.85,2,12,4,7,1,0
+AOP,Issuer gateway (wallet-side),ActorIssuerGateway.java,42,6,9,1.50,3,0,361,60.17,1.33,8,11,81,65,6,10,128,595,4165.00,43.47,181043.15,34.91,2,14,4,5,5,0
+AOP,Identity wallet handler,ActorWalletServiceHandler.java,42,4,7,1.75,3,0,377,94.25,1.75,10,16,82,67,7,8,127,614,4291.05,41.43,177759.13,34.50,2,16,4,7,5,0
